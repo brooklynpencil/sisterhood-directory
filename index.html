@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Designed by Sisterhood Member Directory</title>
+<meta name="description" content="Meet the women of Designed by Sisterhood and the businesses they run.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --berry:#6D1746; --rose:#C98AA5; --blush:#F0DAE2; --sand:#EADDD4; --gold:#C6A66B;
+  --ink:#3a2030; --paper:#fff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:120px}
+html{color-scheme:light}
+body{background:var(--paper);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));font-family:'Montserrat',sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}
+header{text-align:center;padding:64px 0 40px}
+.wm-top{font-family:'Cinzel',serif;letter-spacing:.55em;font-size:clamp(14px,3.4vw,24px);color:var(--berry);padding-left:.55em}
+.wm-main{font-family:'Cormorant Garamond',serif;font-weight:700;color:var(--berry);font-size:clamp(48px,11vw,96px);line-height:.95;letter-spacing:-.01em;text-transform:uppercase}
+.tag{margin-top:22px;font-family:'Cinzel',serif;letter-spacing:.22em;font-size:clamp(11px,2.4vw,15px);color:var(--berry);text-transform:uppercase}
+.rule{width:80px;height:2px;background:var(--gold);margin:22px auto}
+.intro{max-width:560px;margin:0 auto;font-family:'Cormorant Garamond',serif;font-size:20px;color:var(--ink)}
+.bar{position:sticky;z-index:10;background:var(--paper);border-top:1px solid var(--sand);border-bottom:1px solid var(--sand);padding:12px 0;top:env(safe-area-inset-top,0px)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--paper);z-index:11}
+.bar-inner{max-width:1100px;margin:0 auto;display:flex;flex-direction:column;gap:10px}
+#q{width:100%;padding:11px 16px;border:1px solid var(--rose);border-radius:999px;font:inherit;font-size:14px;color:var(--ink);background:var(--paper);outline:none}
+#q:focus{border-color:var(--berry);box-shadow:0 0 0 3px var(--blush)}
+.jump{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}
+.jump::-webkit-scrollbar{display:none}
+.jump a{flex:none;text-decoration:none;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--berry);border:1px solid var(--rose);border-radius:999px;padding:6px 14px;background:var(--paper);transition:.15s}
+.jump a:hover{background:var(--berry);color:var(--paper);border-color:var(--berry)}
+main{max-width:1100px;margin:0 auto;padding:20px 0 80px}
+section{margin-top:48px}
+section h2{font-family:'Cinzel',serif;font-weight:500;color:var(--berry);font-size:clamp(20px,4vw,28px);letter-spacing:.14em;text-transform:uppercase}
+section h2::after{content:"";display:block;width:56px;height:2px;background:var(--gold);margin-top:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:20px;margin-top:24px}
+.card{background:var(--paper);border:1px solid var(--sand);border-radius:16px;padding:26px 18px 22px;text-align:center;transition:.2s}
+.card:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(109,23,70,.12);border-color:var(--rose)}
+.photo{width:112px;height:112px;border-radius:50%;margin:0 auto 14px;overflow:hidden;border:3px solid var(--blush);outline:1px solid var(--gold);outline-offset:3px;background:var(--blush);display:flex;align-items:center;justify-content:center}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.photo span{font-family:'Cormorant Garamond',serif;font-size:44px;font-weight:600;color:var(--berry)}
+.name{font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:600;color:var(--berry);line-height:1.15}
+.cat{margin-top:4px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--rose);font-weight:500}
+.btn{display:inline-block;margin-top:16px;text-decoration:none;font-size:12px;letter-spacing:.08em;color:var(--berry);border:1px solid var(--berry);border-radius:999px;padding:8px 18px;transition:.15s;word-break:break-all}
+.btn:hover{background:var(--berry);color:var(--paper)}
+.none{display:none;text-align:center;margin-top:60px;font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--berry)}
+footer{text-align:center;padding:36px 16px;margin-left:calc(-1*max(16px,env(safe-area-inset-left,0px)));margin-right:calc(-1*max(16px,env(safe-area-inset-right,0px)));background:var(--sand);font-family:'Cinzel',serif;letter-spacing:.18em;font-size:12px;color:var(--berry);text-transform:uppercase}
+footer b{display:block;font-weight:600;margin-top:6px}
+@media(min-width:720px){.bar-inner{flex-direction:row;align-items:center}#q{max-width:300px;flex:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wm-top">DESIGNED BY</div>
+  <div class="wm-main">Sisterhood</div>
+  <div class="rule"></div>
+  <div class="tag">Sisterhood does Business</div>
+  <p class="intro" style="margin-top:18px">Our member directory. Every woman listed is part of our community.</p>
+</header>
+
+<div class="bar">
+  <div class="bar-inner">
+    <input id="q" type="search" placeholder="Search by name or category" aria-label="Search the directory">
+    <nav class="jump" id="jump" aria-label="Jump to category"></nav>
+  </div>
+</div>
+
+<main id="main"></main>
+<div class="none" id="none">No members match your search.</div>
+
+<footer>Built on connection<b>Designed for growth</b></footer>
+
+<script>
+/* To add a member: add one line below. Photo goes in /photos/ named exactly the handle, e.g. photos/brooklynpencil.jpg
+   Until a photo is uploaded, the card shows a monogram automatically. */
+const MEMBERS = [
+  {name:"Alexa", handle:"theasetfreechapter", cat:"Faith"},
+  {name:"Angie", handle:"childcareguru_angie", cat:"Consulting"},
+  {name:"Ariana", handle:"blessedorganix", cat:"Beauty Services"},
+  {name:"Barbara", handle:"bscasimirri", cat:"Finance"},
+  {name:"Chastity", handle:"brooklynpencil", cat:"Consulting"},
+  {name:"Cheryl", handle:"retreatintobooks", cat:"Retreats"},
+  {name:"Christina", handle:"thespotintottenville", cat:"Retail"},
+  {name:"Cici", handle:"hair_bycici", cat:"Beauty Services"},
+  {name:"Cidel", handle:"beautybarbycp", cat:"Beauty Services"},
+  {name:"Deanna", handle:"taxandrelaxinc", cat:"Finance"},
+  {name:"Denise", handle:"thewanderingpage_li", cat:"Retail"},
+  {name:"Destiny", handle:"desstinyv", cat:"Beauty Services"},
+  {name:"Destiny", handle:"glambydes", cat:"Beauty Services"},
+  {name:"Elisa", handle:"elisa.irvolino", cat:"Culinary"},
+  {name:"Erika", handle:"redefining_strenth_coach", cat:"Coaching"},
+  {name:"Evie", handle:"wesnappedny", cat:"Entertainment"},
+  {name:"Faith", handle:"theartsytravelista", cat:"Travel Advisor"},
+  {name:"Gabriella", handle:"lashaholics.g", cat:"Beauty Services"},
+  {name:"Helen", handle:"amatewellnessny", cat:"Coaching"},
+  {name:"Jessica", handle:"jessjordan_businesscoach", cat:"Coaching"},
+  {name:"Karen", handle:"KarenLopez.LCSW", cat:"Medical"},
+  {name:"Katherine", handle:"studiokaterineg", cat:"Designer"},
+  {name:"Khat", handle:"khat_s_ross", cat:"Supporter"},
+  {name:"Lilliana", handle:"mrshlopez151", cat:"Supporter"},
+  {name:"Lisamarie", handle:"rosariomediasolutions", cat:"Social Media Management"},
+  {name:"Liz", handle:"lizkamali_", cat:"Coaching"},
+  {name:"Maria", handle:"eliteenergy___", cat:"Herbalife"},
+  {name:"Nicole", handle:"theskinwellnessco", cat:"Beauty Services"},
+  {name:"Pauline", handle:"designedbysisterhood", cat:"Consulting"},
+  {name:"Ronnette", handle:"breathepinkscents", cat:"Retail"},
+  {name:"Rosemary", handle:"vida.immersion", cat:"Arts"},
+  {name:"Sabrina", handle:"timeless_design_jewelry", cat:"Retail"},
+  {name:"Sandra", handle:"sandra_encarnacion_", cat:"Finance"},
+  {name:"Saphire", handle:"caughtyoulooking__", cat:"Beauty Services"},
+  {name:"Serena", handle:"blendedlaserdesign", cat:"Retail"},
+  {name:"Tiffany", handle:"ellaqua_", cat:"Beauty Services"},
+  {name:"Yessica", handle:"jayscleaningservice_pr", cat:"Service Provider"},
+  {name:"Zaidy", handle:"zaidy_decor", cat:"Service Provider"}
+];
+
+const PHOTOS = {};
+const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const main = document.getElementById('main'), jump = document.getElementById('jump');
+
+const cats = [...new Set(MEMBERS.map(m => m.cat))].sort((a,b) => {
+  if (a==='Supporter') return 1; if (b==='Supporter') return -1; return a.localeCompare(b);
+});
+
+cats.forEach(c => {
+  const id = 'c-' + slug(c);
+  const label = c === 'Supporter' ? 'Supporters' : c;
+  jump.insertAdjacentHTML('beforeend', `<a href="#${id}">${esc(label)}</a>`);
+  const cards = MEMBERS.filter(m => m.cat === c).sort((a,b)=>a.name.localeCompare(b.name)).map(m => `
+    <article class="card" data-search="${esc((m.name+' '+m.handle+' '+m.cat).toLowerCase())}">
+      <div class="photo"><img src="${PHOTOS[m.handle.toLowerCase()] || 'photos/'+esc(m.handle.toLowerCase())+'.jpg'}" alt="${esc(m.name)}" loading="lazy"
+        onerror="this.parentNode.innerHTML='<span>${esc(m.name[0])}</span>'"></div>
+      <div class="name">${esc(m.name)}</div>
+      <div class="cat">${esc(m.cat)}</div>
+      <a class="btn" href="https://www.instagram.com/${encodeURIComponent(m.handle)}/" target="_blank" rel="noopener">@${esc(m.handle)}</a>
+    </article>`).join('');
+  main.insertAdjacentHTML('beforeend', `<section id="${id}" data-cat><h2>${esc(label)}</h2><div class="grid">${cards}</div></section>`);
+});
+
+document.getElementById('q').addEventListener('input', e => {
+  const t = e.target.value.trim().toLowerCase();
+  let total = 0;
+  document.querySelectorAll('section[data-cat]').forEach(sec => {
+    let n = 0;
+    sec.querySelectorAll('.card').forEach(card => {
+      const show = !t || card.dataset.search.includes(t);
+      card.style.display = show ? '' : 'none';
+      if (show) n++;
+    });
+    sec.style.display = n ? '' : 'none';
+    total += n;
+  });
+  document.getElementById('none').style.display = total ? 'none' : 'block';
+});
+</script>
+</body>
+</html>
