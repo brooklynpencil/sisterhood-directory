@@ -20,6 +20,8 @@ body{background:var(--paper);padding-left:max(16px,env(safe-area-inset-left,0px)
 header{text-align:center;padding:64px 0 40px}
 .wm-top{font-family:'Cinzel',serif;letter-spacing:.55em;font-size:clamp(14px,3.4vw,24px);color:var(--berry);padding-left:.55em}
 .wm-main{font-family:'Cormorant Garamond',serif;font-weight:700;color:var(--berry);font-size:clamp(48px,11vw,96px);line-height:.95;letter-spacing:-.01em;text-transform:uppercase}
+.logo{display:block;width:min(560px,86%);margin:0 auto}
+.logo img{width:100%;height:auto;display:block}
 .tag{margin-top:22px;font-family:'Cinzel',serif;letter-spacing:.22em;font-size:clamp(11px,2.4vw,15px);color:var(--berry);text-transform:uppercase}
 .rule{width:80px;height:2px;background:var(--gold);margin:22px auto}
 .intro{max-width:680px;margin:0 auto;font-family:'Cormorant Garamond',serif;font-size:20px;color:var(--ink);text-wrap:balance}
@@ -55,11 +57,7 @@ footer b{display:block;font-weight:600;margin-top:6px}
 </head>
 <body>
 <header>
-    <a href="https://www.designedbysisterhood.com" style="text-decoration:none;color:inherit;display:block">
-    <div class="wm-top">DESIGNED BY</div>
-    <div class="wm-main">Sisterhood</div>
-  </a>
-  <p style="margin-top:14px"><a href="https://www.designedbysisterhood.com" style="color:#6D1746;font-size:13px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid #C6A66B">Back to Designed by Sisterhood</a></p>
+    <a class="logo" href="https://www.designedbysisterhood.com" aria-label="Designed by Sisterhood home"><img src="logo.png" alt="Designed by Sisterhood"></a>
   <div class="rule"></div>
   <div class="tag">Sisterhood does Business</div>
   <p class="intro" style="margin-top:18px">Meet the women of Designed by Sisterhood and the businesses they run.</p>
